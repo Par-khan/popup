@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgba(222, 205, 172, 1);
+
+}
+
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay.open {
+    display: block;
+}
+
+.button-box {
+    width: 285px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgba(254, 250, 243, 1);
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border-radius: 9px;
+    padding-bottom: 140px;
+
+}
+
+
+.button {
+    position: absolute;
+    width: 187px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgba(235, 191, 83, 1);
+    color: white;
+    border-radius: 15px;
+    left: 50px;
+    top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main-box {
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate(-35%, -30%) scale(0);
+    transition: all 0.25s ease-in-out;
+
+}
+
+.main-box.open {
+    transform: scale(1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    margin-top: -40px;
+}
+
+.content-1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.content-2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cut {
+    font-size: 30px;
+    margin-top: -120px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.input-box {
+    max-width: 560px;
+    height: 56px;
+    background-color: rgba(238, 232, 221, 1);
+    border-radius: 28px;
+    border: 1px solid rgba(175, 161, 135, 1);
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    margin-top: 30px;
+    overflow-x: hiden;
+}
+
+.SUBSCRIBE {
+    width: 179px;
+    height: 56px;
+    border: 1px solid rgba(235, 191, 83, 1);
+    background-color: rgba(235, 191, 83, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-top: -1px;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+.SUBSCRIBE p {
+    width: 94px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.input {
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border: none;
+    padding: 25px;
+}
+
+.input::placeholder {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(222, 205, 172, 1);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay.open {
+    display: block;
+}
+
+.button-box {
+    width: 285px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgba(254, 250, 243, 1);
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border-radius: 9px;
+    padding-bottom: 140px;
+}
+
+.button-box.open{
+    display: none;
+}
+
+.button {
+    position: absolute;
+    width: 187px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgba(235, 191, 83, 1);
+    color: white;
+    border-radius: 15px;
+    left: 50px;
+    top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: none;
+    cursor: pointer;
+}
+
+.main-box {
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate(-35%, -30%) scale(0);
+    transition: all 0.25s ease-in-out;
+}
+
+.main-box.open {
+    transform: scale(1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    margin-top: -40px;
+}
+
+.content-1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.content-2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cut {
+    font-size: 30px;
+    margin-top: -120px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.input-box {
+    max-width: 560px;
+    height: 56px;
+    background-color: rgba(238, 232, 221, 1);
+    border-radius: 28px;
+    border: 1px solid rgba(175, 161, 135, 1);
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.SUBSCRIBE {
+    width: 179px;
+    height: 56px;
+    border: 1px solid rgba(235, 191, 83, 1);
+    background-color: rgba(235, 191, 83, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-top: -1px;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+.SUBSCRIBE p {
+    width: 94px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.input {
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border: none;
+    padding: 25px;
+}
+
+.input::placeholder {
+    font-size: 18px;
+}
+
+@media (max-width: 450px) {
+    .main-box {
+        width: 90%;
+        height: auto;
+        padding: 0 10px;
+    
+    }
+
+    img {
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .content-1 {
+        font-weight: 100;
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .content-2 {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .cut {
+        margin-top: -65px;
+        margin-right: 1px;
+    }
+
+    .input-box {
+    
+        
+        margin-bottom: 20px;
+    }
+
+    .SUBSCRIBE {
+        width: 120px;
+        
+    }
+
+    .SUBSCRIBE p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .input {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+    }
+}
